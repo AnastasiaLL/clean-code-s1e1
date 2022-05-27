@@ -12,11 +12,11 @@
   text-align: right;
 }
 
-.header .header-img {
+.header .header__img {
   width: 100%;
 }
 
-.header .info-link {
+.header .header__info-link {
   font-family: fantasy, cursive;
 }
 
@@ -38,7 +38,7 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.new-task__row-wrapper {
   display: flex;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .task-elem,
-.subtitle {
+.main__subtitle {
   list-style: none;
 }
 
@@ -72,8 +72,8 @@
 }
 
 /* Heading */
-.subtitle,
-.label-new-task {
+.main__subtitle,
+.label__new-task {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -101,7 +101,7 @@
 }
 
 /* New Task */
-.label-new-task {
+.label__new-task {
   display: block;
   margin: 0 0 20px;
 }
